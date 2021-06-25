@@ -6,3 +6,4 @@
  👉docker run 
  👉docker rm -f 
  👉docker exec  and many more
+![pic_4_container_details](https://user-images.githubusercontent.com/61656756/123461003-1aa37580-d606-11eb-8633-30b02c16f630.jpg)
