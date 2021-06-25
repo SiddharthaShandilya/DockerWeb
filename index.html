@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <title>Docker_online</title>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/cs /all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+<script>
+
+        function lw()
+                 {
+                        var i = document.getElementById("docker_cmd").value
+                        var xhr = new XMLHttpRequest();
+                        xhr.open("GET","http://192.168.29.203/cgi-bin/docker.py?docker_cmd="+i,true);
+                        xhr.send();
+                        xhr.onload = function()
+                                 {
+                                        var output = xhr.responseText;
+                                        document.getElementById("output1").innerHTML = output
+                                }
+                }
+</script>
+
+<h1>DOCKER CLUB</h1>
+<div class="icon">
+        <i class="fas fa-user-circle"></i>
+</div>
+        <div class="formcontainer">
+
+                <div class="container">
+
+                        <label for="docker_cmd"><strong>DOCKER COMMAND</strong></label>
+                        <input id = "docker_cmd"  type="text" placeholder="Enter Command" name="Docker">
+
+                </div>
+
+                        <button onclick= "lw()"><strong>RUN</strong></button>
+
+        </div>
+
+     <br>
+
+     <pre>
+
+            <div id = "output1">OUTPUT ............. </div>
+
+    </pre>
+
+</body>
+
+</html>
+
