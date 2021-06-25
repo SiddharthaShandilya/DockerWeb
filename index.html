@@ -14,7 +14,7 @@
                  {
                         var i = document.getElementById("docker_cmd").value
                         var xhr = new XMLHttpRequest();
-                        xhr.open("GET","http://192.168.29.203/cgi-bin/docker.py?docker_cmd="+i,true);
+                        xhr.open("GET","http://{  IP-Address of CGI-server }/cgi-bin/{{\CGI-FILE }}?docker_cmd="+i,true);
                         xhr.send();
                         xhr.onload = function()
                                  {
