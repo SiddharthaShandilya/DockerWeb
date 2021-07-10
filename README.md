@@ -1,6 +1,4 @@
-![Kubernetes_1](https://user-images.githubusercontent.com/61656756/125175185-09528f80-e1e8-11eb-90fa-1462c5f827cc.jpg)
-![Kubernetes_2](https://user-images.githubusercontent.com/61656756/125175187-0b1c5300-e1e8-11eb-965d-480e078cbdba.jpg)
-![Kubernetes_3](https://user-images.githubusercontent.com/61656756/125175188-0bb4e980-e1e8-11eb-98db-5dd8626b6086.jpg)
+
 # DockerWeb
  📌 In this task you have to create a Web Application for Docker (one of the great Containerization Tool which provides the user Platform as a Service (PaaS)) by showing your own creativity and UI/UX designing skills to make the webportal user friendly.
  📌 This app will help the user to run all the docker commands like:  
@@ -33,6 +31,7 @@
 
 ![pic_3-sid-centos-ssh (2)](https://user-images.githubusercontent.com/61656756/123462048-73bfd900-d607-11eb-9a07-4e1e675901e3.jpg)
 
+
  #################################################################################################################################################################################
 
 
@@ -40,3 +39,14 @@
  
  #################################################################################################################################################################################
 
+
+
+It Not only allows user to run docker commands but kubectl commands also.
+In this we have already configured the present server to act as a client of minikube.
+![Kubernetes_1](https://user-images.githubusercontent.com/61656756/125175185-09528f80-e1e8-11eb-90fa-1462c5f827cc.jpg)
+
+![Kubernetes_2](https://user-images.githubusercontent.com/61656756/125175187-0b1c5300-e1e8-11eb-965d-480e078cbdba.jpg)
+
+![Kubernetes_3](https://user-images.githubusercontent.com/61656756/125175188-0bb4e980-e1e8-11eb-98db-5dd8626b6086.jpg)
+
+################################################################################################################################################################################
