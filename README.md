@@ -89,7 +89,7 @@ Feature provided -
 
 
 
-
+<!--
 
 # Face_recognition_EC2-What's-app
 
@@ -107,7 +107,7 @@ The application uses cnn for training new model for recognizing a face as well a
 
 *If you're interested in knowing the powerlevel9k configuration to get this prompt, have a look at [this gist](https://gist.github.com/athityakumar/1bd5e9e24cd2a1891565573a893993eb).*
 
--->
+
 
 # Table of contents
 
